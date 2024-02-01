@@ -14,7 +14,7 @@ embeddings = OpenAIEmbeddings()
 # default model = "gpt-3.5-turbo"
 llm = ChatOpenAI()
 
-directory = "C:/Users/kris_/Python/low-latency-sts/log"
+directory = "YOUR DOCUMENTS PATH"
 
 def load_docs(directory):
     loader = DirectoryLoader(directory)
