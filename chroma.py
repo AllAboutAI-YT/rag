@@ -6,7 +6,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI API KEY"
 
 # initializing the embeddings
 embeddings = OpenAIEmbeddings()
