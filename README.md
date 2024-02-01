@@ -1,0 +1,2 @@
+# rag
+Easy RAG Setup
